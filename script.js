@@ -17,7 +17,7 @@ class Messenger extends Message{
         this.arr = []
     }
     show_history() {
-        for(let i = 0; this.arr.length; i++) {
+        for(let i = 0; i<this.arr.length; i++) {
             let l = this.arr[i]
             let k = l.join(' ')
             console.log(k)
